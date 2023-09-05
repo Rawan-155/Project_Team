@@ -1,3 +1,43 @@
+/* ------ Footer ------*/
+#footer{
+    color:#555353dc;
+    font-size: 13px;
+}
+#footer h5{
+    color: black; 
+    font-size: 15px;
+}
 #footer ul{
     list-style: none;
+}
+#footer ul li {
+    margin-bottom: 5px;
+}
+#footer ul li a {
+color: #424245e6;
+text-decoration: none;
+}
+#footer ul li a:hover{
+    text-decoration: underline;
+}
+#link{
+    color:#0066CC;
+}
+#border{
+    margin: 0px 10px;
+    border-bottom: 2px solid silver ;
+}
+#footercontent{
+    display: flex;
+}
+#footercontent a{
+    color:#424245e6;
+    text-decoration: none;
+}
+#footercontent a{
+    color:#555353dc;
+    text-decoration: underline;
+}
+.last {
+    margin-right: auto;
 }
