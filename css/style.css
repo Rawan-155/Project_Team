@@ -218,9 +218,9 @@ text-decoration: none;
 
 }
 .accordion-item{
-padding: 0px 10px;
-border: none;
-border-bottom: 1px solid silver;
+padding: 0px 10px !important;
+border: none !important;
+border-bottom: 1px solid silver !important;
 }
 .accordion{
     background-color:#F5F5F7 ;
