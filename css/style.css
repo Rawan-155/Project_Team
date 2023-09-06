@@ -130,6 +130,8 @@ h6 {
 
 
 
+
+/* ------ Rawan Hosny ------*/
 /* ------ Cards ------*/
 #card{
     background-color: #F2F2F2;
@@ -195,21 +197,69 @@ text-decoration: none;
     margin: 0px 10px;
     border-bottom: 2px solid silver ;
 }
-#footercontent{
+ #footercontent{
     display: flex;
 }
-#footercontent a{
+ #footercontent a{
     color:#424245e6;
     text-decoration: none;
 }
-#footercontent a{
+#footercontent a:hover{
     color:#555353dc;
     text-decoration: underline;
 }
 .last {
     margin-right: auto;
 }
+/* ------ Accordion ------*/
+.accordion-button::after {
+  width: 0px;
+  height: 0px;
 
-/* .accordion-button::after{
-float: left;
-} */
+}
+.accordion-item{
+padding: 0px 10px;
+border: none;
+border-bottom: 1px solid silver;
+}
+.accordion{
+    background-color:#F5F5F7 ;
+}
+  .accordion-button.collapsed::before {
+    content: "+";
+    float: right;
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  .accordion-button::after {
+    width:0 !important;
+    height: 0 !important;
+    
+}
+  /* ------ Media Query ------*/
+@media (max-width: 900px) {
+    #mobile-footer-content {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #mobile-footer-content #footercontent {
+        display: block;
+    }
+
+    #mobile-footer-content #footercontent p,
+    #mobile-footer-content #footercontent a,
+    #mobile-footer-content #footercontent .last {
+        display: inline-block; 
+        margin-right: 10px; 
+    }
+
+    #mobile-footer-content i {
+        display: none;
+    }
+
+    #link3, #link4,.l4,.last ,.borderfo{
+        display: none;
+    }
+}
+/* ------ End ------*/
