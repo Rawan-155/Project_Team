@@ -153,15 +153,32 @@ h6 {
     padding: 10px;
     width: 100%;
 }
+.caption-image{
+    position: absolute;
+    bottom: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
 
 .caption-content h2{
     font-size: 40px;
     font-weight: bold;
     
-}   
+} 
+.caption-image h2{
+    font-size: 40px;
+    font-weight: bold;
+}  
 
 .caption-content p{
-    font-size: 14px;
+    font-size: 20px;
+    
+}
+.caption-image p{
+    font-size: 25px;
+
 }
 
 .caption-content a{
