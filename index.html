@@ -7,8 +7,109 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/css/all.min.css">
+    
+      <!--rtl!-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    
+      <!--lato!-->
+     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@200&display=swap" rel="stylesheet">   
 </head>
 <body>
+
+     <!--nav part!-->
+    <nav class="position-fixed nav-fill p-0 top-0 w-100 navbar navbar-dark navbar-expand-lg text-muted bg-body-tertiary mycol">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav px-5 mx-auto mb-lg-0 lato">
+      
+       <a class="nav-link gr lato" href="#"><i class="fa-brands fa-apple"></i></a>
+       
+        <li class="nav-item px-4 dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Mac
+          </a>
+          <ul class="dropdown-menu pt-0">
+            <li class=" py-3 "><h6>اكتشف mac</h6></li>
+            <li><a class="dropdown-item text-light fw-bold fs-4 " href="#">اكتشف كل ما يتعلق بجهاز mac</a></li>
+            <li><a class="dropdown-item text-light fw-bold fs-4 " href="#">MacBook Air</a></li>
+            <li><a class="dropdown-item text-light fw-bold fs-4 " href="#">MacBook Pro</a></li>
+            <li><a class="dropdown-item text-light fw-bold fs-4 " href="#">iMac</a></li>
+            <li><a class="dropdown-item text-light fw-bold fs-4 " href="#">Mac mini</a></li>
+            <li><a class="dropdown-item text-light fw-bold fs-4 " href="#">Mac Studio</a></li>
+            <li><a class="dropdown-item text-light fw-bold fs-4 " href="#">الشاشات</a></li>
+            <li class=" pt-3 "><h6>قارن موديلات Mac</h6></li>
+            <li class=" pb-4 "><h6>قدها mac</h6></li>
+          </ul>
+        </li>
+        <li class="nav-item px-4 ">
+          <a class="nav-link ">iPad</a>
+        </li>
+        <li class="nav-item px-4 ">
+          <a class="nav-link " href="#" >iPhone</a>
+        </li>
+        <li class="nav-item px-4 ">
+          <a class="nav-link "> Watch</a>
+        </li>
+        <li class="nav-item px-4 ">
+          <a class="nav-link "> AirPods</a>
+        </li>
+        <li class="nav-item px-4 ">
+          <a class="nav-link "> Tvو المنزل</a>
+        </li>
+        <li class="nav-item px-4 ">
+          <a class="nav-link "> الترفيه</a>
+        </li>
+        <li class="nav-item px-4 ">
+          <a class="nav-link ">الدعم</a>
+        </li>
+         <li class="nav-item px-4 ">
+          <a class="nav-link ">أماكن الشراء</a>
+        </li>
+        <a class="nav-link" aria-current="page" href="#">
+        <i class="fa-solid gr fa-magnifying-glass"></i>
+        </a>  
+          </ul>
+        </div>
+    
+        <a class="nav-brand gr lato d-lg-none px-2 ms-auto" href="#">
+        <i class="fa-brands fa-apple"></i></a>
+        <a class="gr d-lg-none me-auto" aria-current="page" href="#">
+        <i class="fa-solid gr fa-magnifying-glass"></i>
+        </a>
+        <button type="button" class=" navbar-toggler btn btn-dark" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation"  ><i class="fa-solid  fa-pause fa-rotate-90"></i></button>
+
+    <div class="offcanvas offcanvas-start w-100 navbar-toggler" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header pb-0">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+            <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-x" style="color: #ffffff;"></i>
+            </button>
+          </div>
+           <div class="offcanvas-body">
+             <ul class="navbar-nav mx-auto mb-lg-0 lato">
+        <li> <a class="nav-link " aria-current="page" href="#">Mac</a></li>     
+        <li> <a class="nav-link " aria-current="page" href="#">iPad</a> </li>      
+        <li> <a class="nav-link " aria-current="page" href="#">iPhone</a></li>      
+        <li> <a class="nav-link " aria-current="page" href="#">Watch</a></li>      
+        <li> <a class="nav-link " aria-current="page" href="#">AirPods</a></li>      
+        <li> <a class="nav-link " aria-current="page" href="#">Tvو المنزل </a></li>      
+        <li> <a class="nav-link " aria-current="page" href="#">الترفيه</a></li>      
+        <li> <a class="nav-link " aria-current="page" href="#">الدعم</a></li>      
+        <li> <a class="nav-link " aria-current="page" href="#">أماكن الشراء</a></li>    
+      </ul>
+  </div>
+</div>
+   
+   
+   </nav>
+   
+   <!--header s!-->
+     <div id="com" class="container-fluid text-center p-md-5 bg-light pb-5">
+     <p class="fw-bold display-4 pt-5">MacBook Air بمقاس 15 إنش</p>
+     <p class="fw-bold fs-6" >رهيب بحجمه.عجيب بنحافته.</p>
+     <p class=""><a class="fw-bold link-underline pb-5" href="" > اعرف المزيد <i class="fa-solid fa-chevron-left"></i></a></p>
+     <img class="img" src="images/hero_macbook_air_15.jpg"alt="...">
+     <img class="imgs" src="images/small.png"  alt="...">
+     </div>
+   <!--header e!-->
     
 <!-- ----------Cards---------- -->
         <section class="cardsalign container">
