@@ -37,21 +37,21 @@ nav ul li{
 }
 
 .btn-close {
-      color: white;!important;
+      color: white!important;
     --bs-btn-close-bg: 
         none;
 }
 
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-    background-color: none;!important;
-    border: none;!important;
-    border-color: none;!important;
+    background-color: none!important;
+    border: none!important;
+    border-color: none!important;
 }
 
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
-    box-shadow: none;!important;
+    box-shadow: none!important;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -65,7 +65,7 @@ nav ul li{
 
 h6 {
     font-size: 1rem;
-    color: darkgray;!important;
+    color: darkgray!important;
     padding-right: 5px;
 }
 
@@ -84,7 +84,7 @@ h6 {
 
 .dropdown-item:focus, .dropdown-item:hover {
     color: white;
-    background-color: transparent;!important;
+    background-color: transparent!important;
 }
 
 .dropdown-item {
@@ -94,7 +94,7 @@ h6 {
 .dropdown-item:active {
      color: white;
     text-decoration: none;
-     background-color: transparent;!important; 
+     background-color: transparent!important; 
 }
 
 .dropdown-toggle::after {
