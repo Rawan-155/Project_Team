@@ -127,7 +127,25 @@ h6 {
 
 
 /*----end monas part----*/
-
+/*----sara emad-----*/
+*{
+    box-sizing: border-box;
+}
+;:root{
+    --main-color:#224229;
+    --secound-color:#313232;
+}
+    main div1{
+       
+        background-size: cover;
+        height: 40vh;
+        position: absolute;
+         top: 35%;
+          left: 50px;
+         color: white;
+          font-family: oswald;
+    }
+    
 /*----Nourhan Hany----*/
 .image-container {
     display: flex;
